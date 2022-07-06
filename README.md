@@ -12,3 +12,7 @@
 
 O <a href="https://www.rocketseat.com.br/ignite">**Ignite**</a> é um programa de aceleração da *Rocketseat*, com foco na sua especialização, possuindo diversas trilhas Front-end e Back-end.
 Neste repositório, irei armazenar os arquivos e projetos do módulo de **React**.
+
+<a href="https://gitmoji.dev">
+  <img src="https://img.shields.io/badge/gitmoji-%20🚀%20👽️-00b37e.svg?style=flat" alt="Gitmoji">
+</a>
