@@ -1,8 +1,19 @@
+import { format, formatDistanceToNow } from 'date-fns'
+import ptBR from 'date-fns/locale/pt-BR'
+
 import { Avatar } from "../Avatar/Avatar"
 import { Comment } from "../Comment/Comment"
+
 import styles from "./Post.module.css"
 
-export function Post() {
+export function Post({ author, publishedAt, content }) {
+    const publishedDateFormatted = format(publishedAt, "d 'de' LLLL 'às' HH:mm'h'", {locale: ptBR})
+
+    const publishedDateRelativeToNow = formatDistanceToNow(publishedAt, {
+        locale: ptBR,
+        addSuffix: true   
+    })
+
     return (
         <article className={styles.post}> 
             <header>
@@ -14,7 +25,7 @@ export function Post() {
 
                     </div>
                 </div>
-                <time title="11 de Maio às 08:35h" dateTime="2022-05-11 08:35:51" >Publicado há 1h</time>
+                <time title={publishedDateFormatted} dateTime={publishedAt.toISOString()} >{publishedDateRelativeToNow}</time>
             </header>
 
             <div className={styles.content}>
