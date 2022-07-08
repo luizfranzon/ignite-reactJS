@@ -18,10 +18,10 @@ export function Post({ author, publishedAt, content }) {
         <article className={styles.post}> 
             <header>
                 <div className={styles.author}>
-                    <Avatar src="https://github.com/ignys.png" alt="" />
+                    <Avatar src={author.avatarUrl} alt="" />
                     <div className={styles.authorInfo}>
-                        <strong >Danolo</strong>
-                        <span >Web Developer</span>
+                        <strong >{author.name}</strong>
+                        <span >{author.role}</span>
 
                     </div>
                 </div>
@@ -29,14 +29,15 @@ export function Post({ author, publishedAt, content }) {
             </header>
 
             <div className={styles.content}>
-                <p>Fala galeraa 👋</p>
-                <p>Acabei de subir mais um projeto no meu portfolio. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀</p>
-                <p>👉{' '}<a href="#">jane.design/doctorcare</a></p>
-                <p>
-                    <a href="#">#novoprojeto</a>{' '}
-                    <a href="#">#nlw</a>{' '}
-                    <a href="#">#rocketseat</a>
-                </p>
+
+                {content.map(line => {
+                    if (line.type === 'paragraph') {
+                        return <p>{line.content}</p>
+                    } else if (line.type === 'link') {
+                        return <a href='#'>{line.content}</a>
+                    }
+                })}
+
             </div>
 
             <form className={styles.commentForm}>
