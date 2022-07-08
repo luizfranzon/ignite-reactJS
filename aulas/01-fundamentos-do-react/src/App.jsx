@@ -10,30 +10,30 @@ const posts = [
     {
         id: 1,
         author: {
-            avatarUrl: "https://github.com/ignys.png",
-            name: "Danolo",
-            role: "Web Developer"
-        },
-        content: [
-            { type: 'paragraph', content: "Fala galeraa 👋"},
-            { type: 'paragraph', content: "Acabei de subir mais um projeto no meu portfolio. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀"},
-            { type: 'link', content: "jane.design/doctorcare"}
-        ],
-        publishedAt: new Date('2022-05-03 20:14:41')
-    },
-    {
-        id: 2,
-        author: {
             avatarUrl: "https://github.com/diego3g.png",
             name: "Diego Fernandes",
             role: "CTO @Rocketseat"
         },
         content: [
-            { type: 'paragraph', content: "Fala galeraa 👋"},
+            { type: 'paragraph', content: "Fala galera 👋"},
             { type: 'paragraph', content: "Acabei de subir mais um projeto no meu portfolio. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀"},
             { type: 'link', content: "jane.design/doctorcare"}
         ],
-        publishedAt: new Date('2022-05-10 22:32:14')
+        publishedAt: new Date('2022-07-08 08:13:41')
+    },
+    {
+        id: 2,
+        author: {
+            avatarUrl: "https://github.com/ignys.png",
+            name: "danielcs",
+            role: "Professional CSGO Player"
+        },
+        content: [
+            { type: 'paragraph', content: "Seguinte rapaziada!"},
+            { type: 'paragraph', content: "Vocês não tem ideia no clutch que eu ganhei aqui... eu sou muito bom meu deus"},
+            { type: 'link', content: "youtube.com/watch?v=FFESGKu-b7w"}
+        ],
+        publishedAt: new Date('2022-07-08 15:14:41')
     },
 ]
 
