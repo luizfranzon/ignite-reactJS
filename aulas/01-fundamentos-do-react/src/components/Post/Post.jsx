@@ -1,6 +1,6 @@
+import { useState } from 'react'
 import { format, formatDistanceToNow } from 'date-fns'
 import ptBR from 'date-fns/locale/pt-BR'
-import { useState } from 'react'
 
 import { Avatar } from "../Avatar/Avatar"
 import { Comment } from "../Comment/Comment"
@@ -9,7 +9,7 @@ import styles from "./Post.module.css"
 
 
 export function Post({ author, publishedAt, content }) {
-    const [comments, setComments] = useState(["bacana"])
+    const [comments, setComments] = useState([])
 
     const [newCommentText, setNewCommentText] = useState('')
 
