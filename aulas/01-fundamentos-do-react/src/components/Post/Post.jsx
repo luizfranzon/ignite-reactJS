@@ -50,9 +50,9 @@ export function Post({ author, publishedAt, content }) {
 
                 {content.map(line => {
                     if (line.type === 'paragraph') {
-                        return <p>{line.content}</p>
+                        return <p key={line.content}>{line.content}</p>
                     } else if (line.type === 'link') {
-                        return <a href='#'>{line.content}</a>
+                        return <p key={line.content}><a href='#'>{line.content}</a></p>
                     }
                 })}
 
@@ -67,8 +67,8 @@ export function Post({ author, publishedAt, content }) {
                 </footer>
             </form>
             <div className={styles.commentList}>
-                {comments.map(commnet => {
-                    return <Comment content={commnet}/>
+                {comments.map(comment => {
+                    return <Comment key={comment} content={comment}/>
                 })}
             </div>
         </article>
