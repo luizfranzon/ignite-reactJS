@@ -7,7 +7,6 @@ import { Comment } from "../Comment/Comment"
 
 import styles from "./Post.module.css"
 
-
 export function Post({ author, publishedAt, content }) {
     const [comments, setComments] = useState([])
 
@@ -32,8 +31,13 @@ export function Post({ author, publishedAt, content }) {
         setNewCommentText(event.target.value)
     }
 
-    function deleteComment(comment) {
-        console.log(comment)
+    function deleteComment(commentToDelete) {
+        const commentsWithoutDeleteOne = comments.filter(comment => {
+            return comment !== commentToDelete
+        })
+
+        setComments(commentsWithoutDeleteOne)
+        console.log(comments)
     }
 
     return (
