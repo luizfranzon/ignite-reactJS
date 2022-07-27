@@ -64,4 +64,5 @@
 
 .taskDiv > span {
     color: var(--gray-300);
+    text-align: center;
 }
