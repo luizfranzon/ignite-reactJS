@@ -5,7 +5,7 @@
 <p align="center">
     <img height="100" src="https://raw.githubusercontent.com/luizfranzon/rocketseat-discover/c81949b3b9c3812e40b17d813e40d9feae34f459/media/imagens/ignite.svg">
     <span>ㅤㅤ</span>
-    <img height="100" src="https://raw.githubusercontent.com/luizfranzon/rocketseat-discover/c81949b3b9c3812e40b17d813e40d9feae34f459/media/imagens/react-js.svg">
+    <img height="100" src="./assets/React.svg">
 
 <br>
 <br>
