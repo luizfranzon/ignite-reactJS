@@ -16,11 +16,13 @@ export function CreatedTasks() {
                 </div>
             </header>
             <div className={styles.taskDiv}>
-                <img src={Clipboard} alt="" />
-                <span>
-                    <strong>Você ainda não tem tarefas cadastradas</strong> <br />
-                    Crie tarefas e organize seus itens a fazer
-                </span>
+                <div className={styles.taskDivNoTasks}>
+                    <img src={Clipboard} alt="" />
+                    <span>
+                        <strong>Você ainda não tem tarefas cadastradas</strong> <br />
+                        Crie tarefas e organize seus itens a fazer
+                    </span>
+                </div>
             </div>
         </main>
     );
