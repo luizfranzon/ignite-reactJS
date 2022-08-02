@@ -13,12 +13,14 @@
 O <a href="https://www.rocketseat.com.br/ignite">**Ignite**</a> é um programa de aceleração da _Rocketseat_, com foco na sua especialização, possuindo diversas trilhas Front-end e Back-end.
 Neste repositório, irei armazenar os arquivos e projetos do módulo de **React**.
 
+
+### - Projetos -
 <table>
 <tbody>
-  <tr>
-    <td><a href="https://ignite-feed-livid.vercel.app/">Ignite Feed</a></td>
-    <td><a href="https://ignite-react-js-nine.vercel.app/">To-do List</a></td>
-  </tr>
+    <tr>
+        <td><a href="https://ignite-feed-livid.vercel.app/">Ignite Feed</a></td>
+        <td><a href="https://ignite-react-js-nine.vercel.app/">To-do List</a></td>
+    </tr>
 </tbody>
 </table>
 
