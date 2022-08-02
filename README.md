@@ -14,11 +14,6 @@ O <a href="https://www.rocketseat.com.br/ignite">**Ignite**</a> é um programa d
 Neste repositório, irei armazenar os arquivos e projetos do módulo de **React**.
 
 <table>
-<thead>
-  <tr>
-    <th colspan="2"><p align="center">Projetos</p></th>
-  </tr>
-</thead>
 <tbody>
   <tr>
     <td><a href="https://ignite-feed-livid.vercel.app/">Ignite Feed</a></td>
