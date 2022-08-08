@@ -19,7 +19,7 @@ Neste repositório, irei armazenar os arquivos e projetos do módulo de **React*
 <tbody>
     <tr>
         <td><a href="https://ignite-feed-livid.vercel.app/">Ignite Feed</a></td>
-        <td><a href="https://ignite-react-js-nine.vercel.app/">To-do List</a></td>
+        <td><a href="https://todo-list-app-reactjs.vercel.app//">To-do List</a></td>
     </tr>
 </tbody>
 </table>
